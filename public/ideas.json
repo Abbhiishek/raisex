@@ -1,0 +1,282 @@
+[
+    {
+        "id": 1,
+        "name": "EcoTrack",
+        "description": "A platform for monitoring carbon footprints",
+        "tagline": "Measure your impact on the planet",
+        "raised_amount": 250000,
+        "investors": 35,
+        "image": "",
+        "category": [
+            "Environment",
+            "IoT",
+            "Data Analytics"
+        ]
+    },
+    {
+        "id": 2,
+        "name": "AI restoring application",
+        "description": "an app to restore old memories",
+        "tagline": "Live the old memories ",
+        "raised_amount": 138,
+        "investors": 10,
+        "image": "",
+        "category": [
+            "Blockchain",
+            "DeFi",
+            "NFT"
+        ]
+    },
+    {
+        "id": 3,
+        "name": "HealthHub",
+        "description": "Centralized health data management system",
+        "tagline": "Your health, in your hands",
+        "raised_amount": 500000,
+        "investors": 50,
+        "image": "",
+        "category": [
+            "Healthcare",
+            "Data Privacy",
+            "AI"
+        ]
+    },
+    {
+        "id": 4,
+        "name": "CryptoSwap",
+        "description": "Decentralized cryptocurrency exchange platform",
+        "tagline": "Trade without boundaries",
+        "raised_amount": 750000,
+        "investors": 100,
+        "image": "",
+        "category": [
+            "Cryptocurrency",
+            "Blockchain",
+            "Finance"
+        ]
+    },
+    {
+        "id": 5,
+        "name": "VirtualClassroom",
+        "description": "Immersive online learning experience",
+        "tagline": "Education beyond walls",
+        "raised_amount": 300000,
+        "investors": 25,
+        "image": "",
+        "category": [
+            "Education",
+            "VR",
+            "EdTech"
+        ]
+    },
+    {
+        "id": 6,
+        "name": "SmartFarm",
+        "description": "AI-powered agriculture management system",
+        "tagline": "Cultivating the future",
+        "raised_amount": 450000,
+        "investors": 40,
+        "image": "",
+        "category": [
+            "Agriculture",
+            "AI",
+            "IoT"
+        ]
+    },
+    {
+        "id": 7,
+        "name": "SecureChain",
+        "description": "Blockchain-based supply chain verification",
+        "tagline": "Transparency from source to shelf",
+        "raised_amount": 600000,
+        "investors": 75,
+        "image": "",
+        "category": [
+            "Supply Chain",
+            "Blockchain",
+            "Logistics"
+        ]
+    },
+    {
+        "id": 8,
+        "name": "EcoEnergy",
+        "description": "Renewable energy marketplace",
+        "tagline": "Power your world, sustainably",
+        "raised_amount": 350000,
+        "investors": 30,
+        "image": "",
+        "category": [
+            "Energy",
+            "Sustainability",
+            "Marketplace"
+        ]
+    },
+    {
+        "id": 9,
+        "name": "ArtBlock",
+        "description": "NFT platform for digital artists",
+        "tagline": "Own a piece of digital history",
+        "raised_amount": 200000,
+        "investors": 20,
+        "image": "",
+        "category": [
+            "Art",
+            "NFT",
+            "Blockchain"
+        ]
+    },
+    {
+        "id": 10,
+        "name": "SpaceVenture",
+        "description": "Commercial space travel booking platform",
+        "tagline": "Your journey to the stars begins here",
+        "raised_amount": 1000000,
+        "investors": 150,
+        "image": "",
+        "category": [
+            "Space",
+            "Travel",
+            "Technology"
+        ]
+    },
+    {
+        "id": 11,
+        "name": "MindWell",
+        "description": "AI-powered mental health support app",
+        "tagline": "Your digital companion for wellbeing",
+        "raised_amount": 400000,
+        "investors": 45,
+        "image": "",
+        "category": [
+            "Healthcare",
+            "AI",
+            "Mental Health"
+        ]
+    },
+    {
+        "id": 12,
+        "name": "GreenRide",
+        "description": "Electric vehicle sharing platform",
+        "tagline": "Sustainable mobility for all",
+        "raised_amount": 550000,
+        "investors": 60,
+        "image": "",
+        "category": [
+            "Transportation",
+            "Sustainability",
+            "Sharing Economy"
+        ]
+    },
+    {
+        "id": 13,
+        "name": "CyberShield",
+        "description": "AI-driven cybersecurity solution",
+        "tagline": "Protecting your digital world",
+        "raised_amount": 700000,
+        "investors": 80,
+        "image": "",
+        "category": [
+            "Cybersecurity",
+            "AI",
+            "Enterprise"
+        ]
+    },
+    {
+        "id": 14,
+        "name": "FoodChain",
+        "description": "Farm-to-table food traceability platform",
+        "tagline": "Know your food's journey",
+        "raised_amount": 300000,
+        "investors": 25,
+        "image": "",
+        "category": [
+            "Food",
+            "Blockchain",
+            "Sustainability"
+        ]
+    },
+    {
+        "id": 15,
+        "name": "VirtualFit",
+        "description": "AR-powered virtual fitting room",
+        "tagline": "Try before you buy, from anywhere",
+        "raised_amount": 250000,
+        "investors": 20,
+        "image": "",
+        "category": [
+            "Retail",
+            "AR",
+            "E-commerce"
+        ]
+    },
+    {
+        "id": 16,
+        "name": "EduBlock",
+        "description": "Blockchain-based academic credential verification",
+        "tagline": "Securing your educational journey",
+        "raised_amount": 400000,
+        "investors": 40,
+        "image": "",
+        "category": [
+            "Education",
+            "Blockchain",
+            "Verification"
+        ]
+    },
+    {
+        "id": 17,
+        "name": "AquaSense",
+        "description": "IoT-based water quality monitoring system",
+        "tagline": "Ensuring clean water for all",
+        "raised_amount": 350000,
+        "investors": 30,
+        "image": "",
+        "category": [
+            "Environment",
+            "IoT",
+            "Water"
+        ]
+    },
+    {
+        "id": 18,
+        "name": "GenomeX",
+        "description": "Personalized genomic analysis platform",
+        "tagline": "Unlock the secrets of your DNA",
+        "raised_amount": 800000,
+        "investors": 90,
+        "image": "",
+        "category": [
+            "Healthcare",
+            "Genetics",
+            "AI"
+        ]
+    },
+    {
+        "id": 19,
+        "name": "RoboChef",
+        "description": "AI-powered robotic kitchen assistant",
+        "tagline": "Your personal sous chef",
+        "raised_amount": 600000,
+        "investors": 70,
+        "image": "",
+        "category": [
+            "Robotics",
+            "AI",
+            "Food Tech"
+        ]
+    },
+    {
+        "id": 20,
+        "name": "SoundScape",
+        "description": "Immersive 3D audio experience platform",
+        "tagline": "Hear the world in a new dimension",
+        "raised_amount": 200000,
+        "investors": 15,
+        "image": "",
+        "category": [
+            "Audio",
+            "VR",
+            "Entertainment"
+        ]
+    }
+]
