@@ -35,7 +35,7 @@ interface HomePageProps {
 
 export default function HomePage({ children }: HomePageProps) {
     return (
-        <div className="container max-w-[90rem] mx-auto px-[.6rem] py-4 flex flex-col items-center gap-4">
+        <div className="container max-w-[100rem] mx-auto px-[.6rem] py-4 flex flex-col items-center gap-4">
             {children}
         </div>
     );
