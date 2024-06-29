@@ -3,8 +3,6 @@
 RaiseX is a decentralized platform for raising funds for charities and non-profits. It is built on the Ethereum blockchain and uses a unique approach to raising funds that ensures transparency and accountability.
 
 
-
-
 ## Tech Stack
 
 - **Next.js 14**: The latest version of Next.js with the new App Router.
@@ -23,11 +21,9 @@ RaiseX is a decentralized platform for raising funds for charities and non-profi
 - **Bun**: A modern package manager and JavaScript runtime.
 
 
+## Development Tool
 
-## Code Quality
-This template incorporates several tools to ensure code quality and consistency:
+### Devpod
+We used Devpod for our developer environments. It's a container-based appproach it ensures that your envirnonments are consistent and isolated. We used Azure and GCP providers to setup a virtual machine. The options cloud providers makes it better choice than GitHub Codespaces. More over it runs on client side.
 
-- **Husky**: Runs scripts before Git commits to catch potential issues early.
-- **Commitlint**: Enforces a consistent commit message format.
-- **ESLint**: Lints code for potential issues and enforces code style guidelines.
 
