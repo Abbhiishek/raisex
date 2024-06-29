@@ -9,7 +9,9 @@ import Image from 'next/image'
 import Security_section from '../../components/home/Security_section'
 import Features_section from '@/components/home/Features_section'
 import Navbar from '@/components/home/Navbar'
-// import VerticalCarousel from '../../components/home/VerticalCarousel';
+import Footer from '@/components/home/Footer'
+import carasouel from '../../public/assets/carasouel.png'
+
 
 
 
@@ -17,13 +19,19 @@ export default function Home() {
   return (
     <>
       <Navbar />
-      <div className='flex justify-between w-full items-center'>
-        <Status_card />
-        <DemoVideo_card />
+      <div className='w-full flex flex-col justify-start xl:justify-between items-center md:flex-row md:items-start gap-2'>
+        <div className='w-full md:w-[60%] xl:w-[65%]'>
+          <div className='flex justify-start gap-2 md:gap-4 2xl:gap-[5rem] w-full items-center'>
+            <Status_card />
+            <DemoVideo_card />
+          </div>
+          <Title_card />
+        </div>
+        {/* <VerticalCarousel items={items} /> */}
+        <div className='h-[30rem] md:h-[28rem] xl:h-[34rem] 2xl:h-[46rem] w-[24rem] xl:w-[26rem] 2xl:w-[32rem] rounded-2xl 2xl:rounded-3xl overflow-clip'>
+          <Image src={carasouel} alt='' className='h-full w-full'/>
+        </div> 
       </div>
-      <Title_card />
-      {/* <VerticalCarousel items={items} /> */}
-      <div className='h-[30rem] w-[24rem] border border-white rounded-xl'></div>
 
       <div className='w-full h-[2.5rem] flex justify-between items-center '>
         <div className='border border-white w-[7rem] h-[2rem] rounded-full flex justify-start px-3 items-center'>
@@ -35,9 +43,12 @@ export default function Home() {
           <div className='border border-white w-[5rem] h-[2rem] rounded-full'></div>
         </div>
       </div>
-      <About_section />
-      <Security_section />
-      <Features_section />
+      <div className='w-full flex flex-col justify-center items-center gap-[10rem]'>
+        <About_section />
+        <Security_section />
+        <Features_section />
+      </div>
+      <Footer/>
     </>
   );
 }
