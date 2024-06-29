@@ -29,8 +29,8 @@ export default function Home() {
         </div>
         {/* <VerticalCarousel items={items} /> */}
         <div className='h-[30rem] md:h-[28rem] xl:h-[34rem] 2xl:h-[46rem] w-[24rem] xl:w-[26rem] 2xl:w-[32rem] rounded-2xl 2xl:rounded-3xl overflow-clip'>
-          <Image src={carasouel} alt='' className='h-full w-full'/>
-        </div> 
+          <Image src={carasouel} alt='' className='h-full w-full' />
+        </div>
       </div>
 
       <div className='w-full h-[2.5rem] flex justify-between items-center '>
@@ -43,12 +43,12 @@ export default function Home() {
           <div className='border border-white w-[5rem] h-[2rem] rounded-full'></div>
         </div>
       </div>
-      <div className='w-full flex flex-col justify-center items-center gap-[10rem]'>
+      <div className='w-full flex flex-col justify-center items-center gap-[10rem] container mx-auto'>
         <About_section />
         <Security_section />
         <Features_section />
       </div>
-      <Footer/>
+      <Footer />
     </>
   );
 }

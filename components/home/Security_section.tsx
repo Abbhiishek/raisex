@@ -17,13 +17,13 @@ function Security_section() {
             </div>
             <div className='w-[16rem] md:w-[30rem] lg:w-[40rem] 2xl:w-[60rem] md:flex-row flex flex-col-reverse justify-center items-end md:items-start gap-3'>
                 <div className='w-[9rem] 2xl:w-[15rem]  h-[10rem] 2xl:h-[14rem]  flex flex-col justify-between items-center'>
-                    <Image src={eth} alt='' className='border border-stone-700 w-full h-[7.5rem] 2xl:h-[12rem] rounded-xl'/>
+                    <Image src={eth} alt='' className='border border-stone-700 w-full h-[7.5rem] 2xl:h-[12rem] rounded-xl' />
                     <p className='text-[.6rem] 2xl:text-[.8rem] fon t-[sansl] underline underline-offset-2 text-left w-full'>read more about security measures</p>
                 </div>
                 <div className=' flex flex-col justify-center gap-2 items-center w-full md:w-[20rem] lg:w-[30rem]  2xl:w-[40rem]'>
                     <div className='relative h-[7.5rem] md:h-[9rem] lg:h-[12rem] 2xl:h-[16rem] w-full rounded-xl flex justify-center items-center overflow-hidden'>
-                        <Image src={coin} alt='' className='w-full h-full'/>
-                        <Image src={play} alt='' className='absolute  w-[2rem] lg:w-[2.5rem] 2xl:w-[3rem]'/>
+                        <Image src={coin} alt='' className='w-full h-full' />
+                        <Image src={play} alt='' className='absolute  w-[2rem] lg:w-[2.5rem] 2xl:w-[3rem]' />
                     </div>
                     <div className='  w-full flex justify-between items-start'>
                         <div className='w-[7.7rem] h-[8rem] md:w-[9.5rem] md:h-[10rem] lg:h-[12rem] lg:w-[14rem] 2xl:h-[14rem] 2xl:w-[19rem]  rounded-xl  flex flex-col justify-center gap-1 text-right p-2 lg:p-4 bg-white bg-opacity-80 text-black'>

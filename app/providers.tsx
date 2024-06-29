@@ -12,8 +12,7 @@ function Providers({ children }: { children: React.ReactNode }) {
         <SessionProvider session={session}>
             <ThemeProvider
                 attribute="class"
-                defaultTheme="light"
-                enableSystem
+                defaultTheme="dark"
                 disableTransitionOnChange
             >
                 {children}
